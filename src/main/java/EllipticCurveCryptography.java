@@ -56,6 +56,12 @@ public class EllipticCurveCryptography  {
                 .toString(16)).toUpperCase());
     }
 
+    /**
+     * Test signing of a message using Elliptic Curve Digital Signatures
+     * src: https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
+     * Elliptic Curve Digital Signature Algorithm (ECDSA) offers a variant of the Digital Signature Algorithm (DSA)
+     * which uses elliptic curve cryptography.
+     */
     public void testDigitalSignature() throws Exception {
         KeyPair kp = getKeyPair();
         PrivateKey privateKey = kp.getPrivate();

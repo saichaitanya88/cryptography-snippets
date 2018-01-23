@@ -1,3 +1,5 @@
+package Hashes;
+
 import java.security.Key;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -7,12 +9,12 @@ import java.util.Base64;
  * src: https://gist.github.com/SimoneStefani/99052e8ce0550eb7725ca8681e4225c5#gistcomment-2214057
  */
 public class AES {
-    private static final String ALGO = "AES";
+    private static final String ALGO = "Hashes.AES";
     private static final byte[] keyValue =
             new byte[]{'T', 'h', 'e', 'B', 'e', 's', 't', 'S', 'e', 'c', 'r', 'e', 't', 'K', 'e', 'y'};
 
     /**
-     * Encrypt a string with AES algorithm.
+     * Encrypt a string with Hashes.AES algorithm.
      *
      * @param data is a string
      * @return the encrypted string
@@ -26,7 +28,7 @@ public class AES {
     }
 
     /**
-     * Decrypt a string with AES algorithm.
+     * Decrypt a string with Hashes.AES algorithm.
      *
      * @param encryptedData is a string
      * @return the decrypted string

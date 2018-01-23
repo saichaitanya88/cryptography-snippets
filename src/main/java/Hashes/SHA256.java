@@ -1,3 +1,5 @@
+package Hashes;
+
 import java.security.MessageDigest;
 
 public class SHA256 {

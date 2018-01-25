@@ -1,5 +1,5 @@
-<h2>ProofOfWork.java Output</h2>
-
+ProofOfWork.java Output
+------------
 Setting Difficulty: 1
 Started at: Thu Jan 25 06:28:47 EST 2018
 Target: 0000FFFF00000000000000000000000000000000000000000000000000000000
@@ -111,3 +111,4 @@ Hash  : 0000043118804A9E458761451A6580AB1F1F1C3D35EC0709071FCCF33B4870B8
 Nonce : 3407175
 Ended at: Thu Jan 25 06:31:06 EST 2018
 Duration in ms: 33167
+------------
